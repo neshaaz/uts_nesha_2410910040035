@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'uts/login.dart';
+import 'uts/daftar.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,9 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       routes: {
         "/" :(context)=>LoginPage(),
-        //"/daftar":(context)=>DaftarPage()
+        "/daftar":(context)=>DaftarPage()
       },
-      initialRoute: "/",
+      initialRoute: "/", 
     );
   }
 }
